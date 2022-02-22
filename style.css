@@ -1,0 +1,67 @@
+html{
+    background-image: url(img/fond.png);
+}
+
+body{
+    background-color: white;
+    width: 750px;
+    margin: auto;
+    font-family: 'Oswald';font-size: 22px;
+    
+}   
+
+nav ul li{
+    display: inline-block;
+    padding: 0px 20px;    
+    font-size: 1.0em;
+}
+
+.ab{
+    font-size: 1.3em;
+    color: black;
+}
+
+footer {
+    text-align: center;
+}
+
+footer img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 40%;
+    right: 40%;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    background-color: #B8CB21;
+}
+
+header{
+   color: #B8CB21;
+   font-size: medium;
+   position: relative;
+}
+
+button{
+    float: right;
+    background-color: #B8CB21;
+    color: white;
+    border: transparent;
+    font-size: medium;
+    box-shadow: black;
+}
+
+section{
+    display: inline-block;
+    padding: 2%;
+}
+
+img{
+    float: left;
+    width: 150px ;
+    height: 50px ;
+    margin-right: 10px;
+}
